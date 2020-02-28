@@ -1,2 +1,2 @@
 # vidly
-A simple Rest API with NodeJS to manegement a video rental service
+A simple Rest API with NodeJS to management a video rental service
