@@ -26,9 +26,4 @@ router.post('/', async (req, res) => {
     res.header('x-auth-token', token).send(_.pick(user, ['name', 'email', 'isAdmin']));
 });
 
-// router.get('/', routeHandler(async (req, res) => {
-//     const user = await User.find().sort('name');
-//     res.send(user);
-// }));
-
 module.exports = router;
